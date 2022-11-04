@@ -51,6 +51,7 @@
             <a class="nav-link" href="#">Home</a>
             <a class="nav-link" href="#">Skills</a>
             <a class="nav-link" href="#">Project</a>
+            <a class="nav-link" href="#">Contact</a>
           </div>
         </div>
       </div>
@@ -62,9 +63,7 @@
             <h1 class="mb-4">
               <span class="fst-italic d-flex mb-2 hi"> Hi!, I am <br /> </span>
               Iqbal Isnaeni Herlambang <br />
-              <span class="as"
-                >Junior Front-End Dev | UI/UX Design Enthusiasm
-              </span>
+              <span class="as">Front-End Dev Enthusiasm </span>
             </h1>
             <button type="button" class="btn btn-primary">Contact Me</button>
             <button
@@ -98,7 +97,7 @@
     </section>
     <section id="skills" class="mt-2">
       <h1 class="text-center fw-normal">Skills</h1>
-      <p class="text-center">My Technical Skill</p>
+      <p class="text-center">My technical skill</p>
       <div class="container">
         <div class="icon-skill mt-4 row">
           <div class="col-12 d-flex flex-column">
@@ -162,6 +161,140 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="project" class="my-5 py-5 px-5">
+      <h1 class="text-center fw-normal">Project</h1>
+      <p class="text-center">Portfolio Project</p>
+      <div class="container">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-cont">
+                <div class="row">
+                  <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="img/project1.png" alt="" />
+                  </div>
+                  <div class="col-lg-6 pt-2">
+                    <div class="title-project mt-3">
+                      <h2>Responsive Landing Page</h2>
+                      <p>HTML, CSS, Bootstrap 5</p>
+                      <a href="https://iqbal-isn.github.io/landing-page/">
+                        <button class="btn btn-primary">Demo</button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-cont">
+                <div class="row">
+                  <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="img/project2.png" alt="" />
+                  </div>
+                  <div class="col-lg-6 pt-2">
+                    <div class="title-project mt-3">
+                      <h2>CRUD System</h2>
+                      <p>HTML, CSS, Bootstrap 5, PHP</p>
+                      <a href="https://github.com/Iqbal-Isn/crud-system">
+                        <button class="btn btn-primary">Github</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="my-5">
+      <h1 class="text-center fw-normal">Contact Me</h1>
+      <p class="text-center mb-5">Give feedback, invite collaboration</p>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form
+              action="https://formsubmit.co/a6dcda63953c363e56609d4853e544b4"
+              method="POST"
+            >
+              <div class="mb-3">
+                <label for="name" class="form-label">Name :</label>
+                <input
+                  class="form-control"
+                  id="name"
+                  type="name"
+                  name="name"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email :</label>
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  placeholder="example123@gmail.com"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject :</label>
+                <input
+                  class="form-control"
+                  id="subject"
+                  type="subject"
+                  name="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Detail :</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  type="message"
+                  name="message"
+                  placeholder="Describe the details"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+              <button type="reset" class="btn btn-danger mt-3">Reset</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="py-4">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center fw-normal">Thanks you for coming</h1>
+          <p class="text-center">I hope you like my portfolio</p>
         </div>
       </div>
     </section>
