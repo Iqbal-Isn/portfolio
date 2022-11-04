@@ -3,6 +3,9 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 p {
   color: rgba(0, 0, 0, 0.6);
 }
@@ -91,5 +94,14 @@ p {
   }
   .icon h5 {
     font-size: 0.8rem;
+  }
+  .hi {
+    font-size: 1.1rem;
+  }
+  #jumbotron h1 {
+    font-size: 1.3rem;
+  }
+  .as {
+    font-size: 1rem;
   }
 }
